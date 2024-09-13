@@ -68,7 +68,7 @@ To deploy an EC2 instance with a VPC and a security group:
 
 ```bash
 aws cloudformation create-stack --stack-name ec2-instance-stack --template-body file://ec2-instance.yaml --parameters ParameterKey=InstanceType,ParameterValue=t2.micro ParameterKey=KeyName,ParameterValue=MyKeyPair
-
+```
 ### Contributing
 Contributions are welcome! Please follow the steps below:
 
